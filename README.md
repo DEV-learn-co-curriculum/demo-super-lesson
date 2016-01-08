@@ -94,7 +94,7 @@ Video (iframe) with download link.
 
 ### Example 5: Code block
 
-```javascript
+```ERB
 var fizzbuzz = function (num) {
   if (num % 15 === 0) {
     return 'FizzBuzz';

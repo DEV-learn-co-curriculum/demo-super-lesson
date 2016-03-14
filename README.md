@@ -4,6 +4,7 @@
 
 1. Present valid readme syntax.
 2. Include examples of all possible lesson readme elements.
+3. Get editor working
 
 ## Overview
 
@@ -56,7 +57,7 @@ Code challenges - also known as repls - are super kewl.
 
 ### Code challenge title
 
-Write a method that reverses a string, and call it, passing `"12345"` as an argument.
+Write a method that reverses a string, and call it, passing "12345" as an argument.
 
 ~~~ruby
 
@@ -81,7 +82,16 @@ assert_length(response, 5)
 
 %%%
 
-### Example 3: Video
+### Example 3: Combinations
+
+This section includes the following examples:
+
+1. Video
+2. Image
+3. Code block
+4. Blockquote
+5. Table
+6. Lists
 
 Video (`iframe`) with download link.
 
@@ -89,11 +99,15 @@ Video (`iframe`) with download link.
 
 [Download Video](http://flatiron-videos.s3.amazonaws.com/ironboard/welcome%20to%20the%20shell.mp4)
 
-### Example 4: Image
+Ok, now `/giphy` me.
 
 ![catz](https://after-school-assets.s3.amazonaws.com/cat.gif "CATZ")
 
-### Example 5: Code block
+Paragraph. [Lorem ipsum](http://www.lipsum.com/) dolor sit amet, consectetur adipiscing elit. Ut nec metus quam. Integer luctus accumsan ante, et auctor sapien placerat in. Donec eget nunc a mauris sagittis posuere at ut velit. Nam sollicitudin rhoncus lacus non hendrerit. Duis semper quis turpis ac ultrices. Integer nec faucibus tortor, eu malesuada leo. Aenean imperdiet erat vel efficitur ullamcorper.
+
+Another paragraph. Nunc eleifend sodales pellentesque. [Suspendisse tortor nibh](#not-a-real-link), sollicitudin eget hendrerit facilisis, tristique id odio. Phasellus erat lectus, tempus sit amet blandit id, sollicitudin eget purus. Donec vel iaculis enim, feugiat porta ligula. Vivamus tincidunt odio in ante scelerisque, vitae placerat felis cursus.
+
+Next up is a code block.
 
 ```javascript
 var fizzbuzz = function (num) {
@@ -109,13 +123,13 @@ var fizzbuzz = function (num) {
 };
 ```
 
-### Example 6: Blockquote
+Inspiring quote [[source](#not-really)]:
 
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-> Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+> Ut nec metus quam. Integer luctus accumsan ante, et auctor sapien placerat in.
+> Donec eget nunc a mauris sagittis posuere at ut velit.
 
-### Example 7: Table
+Let's throw another [link](#nowhere) in here.
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -124,3 +138,5 @@ var fizzbuzz = function (num) {
 | adipiscing    | elit.         |   $30 |
 
 <a href='https://learn.co/lessons/demo-super-lesson' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/demo-super-lesson'>demo super lesson</a> on Learn.co and start learning to code for free.</p>
